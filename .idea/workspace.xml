@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76ff3832-8c1c-48d6-9e0a-926634bf422d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/subsms/submail.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/common/utils/utils.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/auth/auth.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/sms/sms.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/user/user.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/controllers/wish/wish.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dotweb_server_debug_2018_03_21.log" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goservice.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/main.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/ApptokenModel.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/ResModel.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/models.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/smsModel.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/userinfoModel.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/models/wishModel.go" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,9 +29,11 @@
       <file leaf-file-name="sms.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/sms/sms.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="598">
+              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="e#13#119#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -267,6 +249,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -415,12 +398,20 @@
       <workItem from="1521689943641" duration="21188000" />
       <workItem from="1521781500047" duration="5057000" />
       <workItem from="1521872406081" duration="93000" />
-      <workItem from="1521872968003" duration="29000" />
+      <workItem from="1521872968003" duration="333000" />
     </task>
+    <task id="LOCAL-00001" summary="第一次提交">
+      <created>1521873021339</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1521873021339</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84995000" />
+    <option name="totallyTimeSpent" value="85299000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -460,6 +451,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="25" />
@@ -471,6 +466,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
           <caret line="104" column="6" lean-forward="false" selection-start-line="104" selection-start-column="6" selection-end-line="104" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#InitDB#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -628,6 +626,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#140#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -635,6 +636,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-349">
           <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!block;n#InitDB#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -711,9 +715,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/sms/sms.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="10" lean-forward="false" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="598">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#13#119#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
