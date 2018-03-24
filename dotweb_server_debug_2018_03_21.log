@@ -1,0 +1,4 @@
+[debug] 2018-03-21 12:42:33.3803 [router.go:424] DotWeb:Router:RegisterRoute success [GET] [/SendACode] [restfulapi/controllers/sms.SendACode]
+[debug] 2018-03-21 12:42:33.3853 [server.go:361] DotWeb:HttpServer SetEnabledGzip [false]
+[debug] 2018-03-21 12:42:33.3893 [dotweb.go:437] DotWeb initBindMiddleware [app] GET_/SendACode *dotweb.xMiddleware match
+[debug] 2018-03-21 12:42:33.3943 [server.go:93] DotWeb:HttpServer ListenAndServe [:80]
